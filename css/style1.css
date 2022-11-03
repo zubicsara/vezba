@@ -1,0 +1,108 @@
+.meni{
+    overflow: hidden;
+    background-color:#333;
+    position: fixed; 
+      top: 0; 
+      left: 0;
+      width: 100%;
+  }
+  .meni a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-family: novi_font;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .meni a:hover{
+    background-color: silver;
+    color:black;
+  }
+  @media screen and (max-width: 600px) {
+   .meni a{
+    float: none;
+    width: 100%; 
+   }
+  }
+
+  @font-face {
+    font-family: novi_font ;
+    src: url(../font/AmaticSC-Regular.ttf);
+}
+
+  .Text{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.Text h1{
+    font-family: novi_font;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: rgb(238, 58, 58);
+   -webkit-animation: rotate-center 0.6s linear 4s 3 both;
+    animation: rotate-center 0.6s linear 4s 5 both;
+
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+     transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+     transform: rotate(360deg);
+  }
+}
+
+.tabela{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   text-align: left;
+   background-color: white;
+   font-family: novi_font;
+   font-size: 20px;
+   letter-spacing: 2px;
+   color: black;
+}
+.tabela th, td {
+   padding: 10px;
+   margin: 10px;
+ }
+  
+ .tabela tr:nth-child(odd) {background-color: #f2f2f2;}
+  
+  .tabela th{
+      background-color: rgb(238, 58, 58);
+ 
+   }
+
+   
+  .footer {
+   font-family: novi_font;
+   font-size: 15px;
+   letter-spacing: 5px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+ }
+
+ @media screen and (max-width: 600px) {
+    .Text{
+        text-align: center;
+        margin-top: 170px;
+ }
+ 
+}
+
+ 

@@ -1,0 +1,121 @@
+.meni{
+  overflow: hidden;
+  background-color:#333;
+  position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+}
+.meni a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-family: novi1_font;
+  letter-spacing: 5px;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.meni a:hover{
+  background-color: silver;
+  color:black;
+}
+@media screen and (max-width: 600px) {
+ .meni a{
+  float: none;
+  width: 100%; 
+ }
+  
+}
+.centar{
+    text-align: center;
+    margin-top: 180px;
+    
+}
+.centar h1{
+   font-family: novi1_font;
+   font-size: 50px;
+   letter-spacing: 15px;
+   font-weight: bold;
+   text-shadow: 10px 10px 40px white;
+   color: white;
+   border: 2px solid #f2f2f2;
+   background-color: #333;
+}
+.centar h2{
+  font-family: novi1_font;
+  font-size: 30px;
+  letter-spacing: 15px;
+  font-weight: bold;
+  text-shadow: 10px 10px 40px white;
+  color: white;
+  border: 2px solid #f2f2f2;
+  background-color: #333;
+}
+
+.centar button {
+   font-family: novi1_font;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 10px;
+    color: black; 
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.centar button a {
+  text-decoration: none;
+  color: black;
+}
+
+.centar button:hover{
+    color: white;
+    background-color: #333;
+    padding: 10px;
+}
+    
+ body{
+    background-image: url(../img/heroimage.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-family: novi1_font;
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+
+  @font-face {
+    font-family: novi1_font ;
+    src: url(../font/AmaticSC-Bold.ttf);
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    background-image: url(../img/heroimage.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: aliceblue;
+}
+  }
+
+
+  
+    
+      
+    
