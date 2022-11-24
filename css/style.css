@@ -103,8 +103,11 @@
     font-family: novi1_font;
     font-size: 15px;
     letter-spacing: 5px;
-    margin-top:5px;
+    
   }
+.fb-share-button{
+  margin-bottom: 5px;
+}
 
   @font-face {
     font-family: novi1_font ;
