@@ -103,6 +103,7 @@
     font-family: novi1_font;
     font-size: 15px;
     letter-spacing: 5px;
+    margin-top:5px;
   }
 
   @font-face {
@@ -118,7 +119,7 @@
     background-attachment: fixed;
     background-position: center center;
     background-color: aliceblue;
-    height: 100%;
+    
 }
   }
 
