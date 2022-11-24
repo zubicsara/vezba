@@ -28,7 +28,11 @@
   width: 100%; 
   font-size: 15px;
  }
-  .centar{ font-size: 15px;}
+  .centar{ 
+    font-size: 15px;
+    width: 80%;
+  
+  }
   
 }
 .centar{
